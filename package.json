@@ -1,8 +1,8 @@
 {
     "scripts": {
     	"heroku-prebuild": "cd frontend && npm install && cd ../backend && npm install",
-		"start": "cd backend && npm start",
-		"frontend": "cd frontend && npm start"   	
+    	"server": "cd backend && npm start",
+		"start": "cd frontend && npm start",
     },
     "engines": {
         "node": "14.16.1"
