@@ -1,4 +1,0 @@
-"scripts": {
-    "client": "cd frontend && npm start",
-    "server": "cd backend && nodemon server.js",
-  }

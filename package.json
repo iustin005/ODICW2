@@ -1,7 +1,6 @@
 {
     "scripts": {
         "start": "nodemon backend/server.js",
-        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
     },
     "engines": {
         "node": "14.16.1"
