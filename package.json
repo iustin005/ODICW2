@@ -1,6 +1,9 @@
 {
     "scripts": {
-        "start": "nodemon backend/server.js"
+    	"install-client": "cd client && npm install",
+    	"install-serer": "cd backend && npm install",
+        "start-backend": "cd backend && nodemon server",
+        "start-frontend": "cd frontend && npm start"
     },
     "engines": {
         "node": "14.16.1"
