@@ -1,7 +1,7 @@
 {
     "scripts": {
-    	"heroku-prebuild": "cd frontend && npm install && cd backend && npm install",
-    	"heroku-postbuild": " cd backend && nodemon server && cd frontend && npm start"
+    	"heroku-prebuild": "cd frontend && npm install && cd ../backend && npm install",
+    	"heroku-postbuild": " cd backend && nodemon server && cd ../frontend && npm start"
     },
     "engines": {
         "node": "14.16.1"
