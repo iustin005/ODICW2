@@ -2,7 +2,7 @@
     "scripts": {
     	"heroku-prebuild": "cd backend && npm install",
     	"start": "cd backend && node server.js",
-    	"heroku-postbuild": "cd frontend && npm install && npm run build"
+    	"heroku-postbuild": "cd frontend && npm install && npm run start"
     		
     },
     "engines": {
