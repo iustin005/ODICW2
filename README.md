@@ -10,3 +10,4 @@ Steps (commands):
 5.  `cd backend` then `npm install` to install all the dependencies for the backend.
 6.  Once all the dependencies have been installed by npm, run `nodemon server` to get the backend fired up.
 7.  After you start both the frontend and the backend, the application is ready on localhost:3000.
+
